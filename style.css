@@ -1,0 +1,168 @@
+
+
+/* all fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&family=Poppins:wght@300&family=Roboto:wght@300&family=Rufina:wght@700&display=swap');
+/* fonts */
+
+.font-rufina{
+    font-family: 'Rufina', serif;
+    color: #002D5B;
+}
+.font-70px{
+    font-size: 70px;
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+.box-shadow{
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 10px;
+}
+.bg-color{
+    background-color: #f3f5ff;
+}
+
+/*-------------------------------------------------*/
+
+/* navbar-section */
+.nav-color{
+    background-color: #f7f7f7;  
+}
+.logo-img{
+    width: 50px;
+    height: 45px;
+    margin-left: 50px;
+}
+
+/*-------------------------------------------------*/
+
+/* banner-section */
+
+.banner-section h2{
+letter-spacing:2px;
+}
+
+.banner-section{
+background-color: #f7f7f7;
+height:550px ;
+margin-top: 75px;
+}
+.banner-img{
+    object-fit:cover;
+    height: 450px;
+    width: 500px;
+}
+
+.banner-button{
+   
+    background-color: #002D5B;
+    color: white;
+    letter-spacing: 1.5px;
+}
+.banner-obutton{
+    border: 3px solid #002D5B ;
+    color: #002D5B;
+    padding:0 35px;
+    letter-spacing: 1.5px;
+}
+
+.banner-obutton:hover{
+    background-color: #002D5B;
+    color: white;
+}
+.banner-button:hover{
+    background-color: white;
+    border: 3px solid #002D5B ;
+    color: #002D5B;
+}
+
+/*-------------------------------------------------*/
+/* about-section */
+
+.about-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.about-head{
+    padding-top: 50px;
+}
+/*-------------------------------------------------*/
+
+/* skill */
+
+
+.skills{
+    margin-top: 100px;
+}
+.my-skill{
+   padding-top: 50px;
+}
+
+/*-------------------------------------------------*/
+
+/* services-section */
+
+.web-title{
+    margin-top: 90px;
+}
+.servicers{
+    padding-top: 50PX;
+}
+
+/*-------------------------------------------------*/
+
+/* latest in card section */
+
+.card{
+    width: 300px;
+    height: 300px;
+    border: none;
+    background-color: #f3f5ff;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 15%;
+    margin-bottom: 50px;
+} 
+.card img{
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    border-radius: 10%;
+    padding: 15px;
+    transition-duration: 1000ms;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+
+/*-------------------------------------------------*/
+
+
+/* footer-section */
+.footer-color{
+    background-color: #1c2940;
+    
+}
+.input-bar{
+    letter-spacing: 10px;
+    text-align: center;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  
+ }
+.border1{
+     border-radius: 60%;
+     border: 10px solid whitesmoke;
+     transition: all 500ms;
+ }
+.border1:hover{
+     transform: scale(1.1);
+ }
+ .copyright{
+     letter-spacing: 1.5px;
+ }
